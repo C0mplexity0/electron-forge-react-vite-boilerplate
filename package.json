@@ -37,7 +37,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@types/react": "^19.0.3",
+    "@types/react": "^19.0.6",
     "@types/react-dom": "^19.0.2",
     "electron-squirrel-startup": "^1.0.1",
     "react": "^19.0.0",
