@@ -1,6 +1,7 @@
 import type { ConfigEnv, UserConfig } from 'vite';
 import { defineConfig, mergeConfig } from 'vite';
 import { getBuildConfig, getBuildDefine, external, pluginHotRestart } from './vite.base.config';
+import commonjs from "@rollup/plugin-commonjs";
 
 // https://vitejs.dev/config
 export default defineConfig((env) => {
@@ -9,6 +10,7 @@ export default defineConfig((env) => {
   const define = getBuildDefine(forgeEnv);
   const config: UserConfig = {
     build: {
+      sourcemap: true,
       lib: {
         entry: forgeConfigSelf.entry!,
         fileName: () => '[name].js',
@@ -18,7 +20,7 @@ export default defineConfig((env) => {
         external,
       },
     },
-    plugins: [pluginHotRestart('restart')],
+    plugins: [pluginHotRestart('restart'), commonjs()],
     define,
     resolve: {
       // Load the Node.js entry.
