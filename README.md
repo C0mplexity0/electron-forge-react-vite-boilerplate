@@ -20,3 +20,7 @@ Then you can package the app with:
 ```
 yarn package
 ```
+
+## Example
+
+This boilerplate is used in https://github.com/C0mplexity0/tiny-games, you might find an answer to an issue you're having there.
