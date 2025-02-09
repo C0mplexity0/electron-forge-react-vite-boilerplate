@@ -170,13 +170,13 @@
   dependencies:
     "@electron-forge/shared-types" "7.6.1"
 
-"@electron-forge/plugin-fuses@^7.6.0":
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-fuses/-/plugin-fuses-7.6.0.tgz#3f9edbcb25dd3f2bed76dcdab18a08dbe128f8c6"
-  integrity sha512-3M6LN0B/y9cZvjpAX7zKVGTNximOEIlYvh2HJJvRARrwOE3eGRBWZsPZg7etqSZtxS6ENtUt/kM88KYOyLfB0w==
+"@electron-forge/plugin-fuses@^7.6.1":
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-fuses/-/plugin-fuses-7.6.1.tgz#860efe48d542f76908ba55bfeea5388c0decbcf0"
+  integrity sha512-M37qQ3/fhvs50Cu5Q0APw7AAWmaS8zGWhbBCAGAeDt1jK0/d8vT6TVb3Qa91tqnIoAhz9DhdTemYrtieBSAF3Q==
   dependencies:
-    "@electron-forge/plugin-base" "7.6.0"
-    "@electron-forge/shared-types" "7.6.0"
+    "@electron-forge/plugin-base" "7.6.1"
+    "@electron-forge/shared-types" "7.6.1"
 
 "@electron-forge/plugin-vite@^7.6.1":
   version "7.6.1"
