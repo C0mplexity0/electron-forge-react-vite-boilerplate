@@ -37,7 +37,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-commonjs": "^28.0.3",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "electron-squirrel-startup": "^1.0.1",
