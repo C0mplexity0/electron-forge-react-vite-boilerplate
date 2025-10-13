@@ -165,20 +165,20 @@
     fs-extra "^10.0.0"
     got "^11.8.5"
 
-"@electron-forge/plugin-auto-unpack-natives@^7.6.0":
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-auto-unpack-natives/-/plugin-auto-unpack-natives-7.6.0.tgz#222ea2d265a00f96a3a65f37f547c90e28c0d740"
-  integrity sha512-rSWRLJinRIxtlkLke0uJzOLksRnXszu3hZrzlgOWChDuMFM298yb6gxWAjYh94VoNxXrUHl9Cd4ia/5+wgPwwg==
+"@electron-forge/plugin-auto-unpack-natives@^7.10.2":
+  version "7.10.2"
+  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-auto-unpack-natives/-/plugin-auto-unpack-natives-7.10.2.tgz#f51348b6956b0bc0403c1d76adbd0fe6c292f428"
+  integrity sha512-uQnahm1DECwqI8hBC7PKccyfovY/YqHNz8de3OxyjQDmwsqQfCA8Ucyh1E9n4NMEpw6Co8KLn+qF2BuIOsftLA==
   dependencies:
-    "@electron-forge/plugin-base" "7.6.0"
-    "@electron-forge/shared-types" "7.6.0"
+    "@electron-forge/plugin-base" "7.10.2"
+    "@electron-forge/shared-types" "7.10.2"
 
-"@electron-forge/plugin-base@7.6.0":
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-base/-/plugin-base-7.6.0.tgz#3925651b6e33a989209f7272fc54724f1364dd43"
-  integrity sha512-9llu4algWZJAJFVVZtd/Xa71c0QVxRmoMrpHX2SB+XJ+ZlFVdXrlnhn2hc/CnM0by9cBElyAL3cx3533OKS7lA==
+"@electron-forge/plugin-base@7.10.2":
+  version "7.10.2"
+  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-base/-/plugin-base-7.10.2.tgz#fbfdc945fcbbc9416ce8ed319f8bdbdf938a3e9c"
+  integrity sha512-+4YLmkLZxvS6JFXYNI4dHt8Il8iIvwk2o6lCJGwNysOUq2KOZ3Wu1He4Ko8HhKcO1VWbFvslbh57oQn963Aryw==
   dependencies:
-    "@electron-forge/shared-types" "7.6.0"
+    "@electron-forge/shared-types" "7.10.2"
 
 "@electron-forge/plugin-base@7.6.1":
   version "7.6.1"
@@ -222,6 +222,16 @@
   integrity sha512-wrZyptJ0Uqvlh2wYzDZfIu2HgCQ+kdGiBlcucmLY4W+GUqf043O8cbYso3D9NXQxOow55QC/1saCQkgLphprPA==
   dependencies:
     "@electron-forge/shared-types" "7.8.0"
+
+"@electron-forge/shared-types@7.10.2":
+  version "7.10.2"
+  resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-7.10.2.tgz#86d37f0ac6800e2197d9878c3445a28485d3abea"
+  integrity sha512-e2pd9RsdbKwsNf6UtKoolmJGy92Nc0/XO4SI91doV8cM954hM2XSYz3VHoqXebMFAF1JDfXoEUt6UCRbEDgMgw==
+  dependencies:
+    "@electron-forge/tracer" "7.10.2"
+    "@electron/packager" "^18.3.5"
+    "@electron/rebuild" "^3.7.0"
+    listr2 "^7.0.2"
 
 "@electron-forge/shared-types@7.6.0":
   version "7.6.0"
@@ -310,6 +320,13 @@
     "@electron-forge/shared-types" "7.8.0"
     "@electron-forge/template-base" "7.8.0"
     fs-extra "^10.0.0"
+
+"@electron-forge/tracer@7.10.2":
+  version "7.10.2"
+  resolved "https://registry.yarnpkg.com/@electron-forge/tracer/-/tracer-7.10.2.tgz#ef6b274127e71c3a09271ba2762345fc1e89c377"
+  integrity sha512-jhLLQbttfZViSOYn/3SJc8HML+jNZAytPVJwgGGd3coUiFysWJ2Xald99iqOiouPAhIigBfNPxQb/q/EbcDu4g==
+  dependencies:
+    chrome-trace-event "^1.0.3"
 
 "@electron-forge/tracer@7.6.0":
   version "7.6.0"
